@@ -1,22 +1,17 @@
+class User{
+    //propriedades de usuarios 
+    nome: string;
+    idade: number;
 
-//palavra reservada
-// O que usuario tem 
-class User {
-
-    //propriedades dos usuarios
-    name: string;
-    age: number;
-
-    //construtores é a definicao de como o objeto vai ser criado
-    // o importante é que o contrutor recebera parametros para que o objeto seja criado com as propriedades definidas
     constructor(nameC: string, ageC: number) {
-        
-        this.name = nameC;
-        this.age = ageC;
-        console.log(`Usuario ${this.name} com a idade ${this.age} criado com sucesso!`);
+        this.idade = ageC
+        this.nome = nameC
+        console.log('Nome do usuario: ' + this.nome + ' Idade do usuario: ' + this.idade);
+
     }
 }
 
-const user1 = new User("John", 30);
-const user2 = new User("Jane", 25);
-const user3 = new User("Bob", 35);
+const user1  = new User("cleber" , 26)
+const user2  = new User("Marcelo" , 22)
+const user3  = new User("jessica" , 28)
+const user4  = new User("Neide" , 70)

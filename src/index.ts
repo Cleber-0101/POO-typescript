@@ -1,1 +1,1 @@
-console.log("HELLO WORD");
+import "./classes_objetos";
