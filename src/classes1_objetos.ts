@@ -5,7 +5,7 @@ class User2 {
     constructor(name: string, age: number) {
         //validação de idade
         // Uma das opções abaixo precisa ser verdadeira para lançar o erro
-        if(age <= 0 || age > 150) {
+        if(age <= 0 || age > 120) {
             throw new Error('Idade inválida');
         }
         //this esta referenciando primeiro a propriedade e depois o parametro do construtor

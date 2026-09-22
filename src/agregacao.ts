@@ -22,6 +22,7 @@ class User{
     ){}
 }
 
+//primeiro usuario criado a partir de uma agregação
 const user = new User("Cleber", 26 , [
     new Endereco('itaquera',26),
     new Endereco('São Miguel', 2015)

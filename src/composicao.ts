@@ -15,7 +15,6 @@ class Address{
     ){
         //console.log(`Endereço: ${this.street}, ${this.city} - ${this.number}`);
     }   
-    
 
     // get retonarDadosPrivados(){
     //     return `${this.street}, ${this.city} - ${this.number}`;
