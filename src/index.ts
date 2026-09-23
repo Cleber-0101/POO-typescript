@@ -1,1 +1,1 @@
-import "./agregacao";
+import "./heranca";
