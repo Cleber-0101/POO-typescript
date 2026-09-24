@@ -1,32 +1,28 @@
 // Classe Pai
-class manager {
-    constructor(
+class Person {
+   constructor(
         public name: string,
         public age: number
     ) {}
 
     //metodo para gerar relatorio do funcionario
     getReportEmployee(): void {
-        console.log('getReportEmployee: Gerando relatorio do funcionario...');
+        console.log(`${this.name} getReportEmployee: Gerando relatorio do funcionario...`);
     }
-
 }
 
-class Admin{
-    constructor
-    (
-        name : string,
-        age : number
-    ){}
+class manager extends Person {
+    //posso criar um metodos expecifico para essa classe 
+}
 
-
+class Admin extends Person {
     //metodo para gerar relatorio do funcionario
     getReportEmployee(): void {
         console.log('getReportEmployee');
     }
 
     rePorteAdmin(): void {
-        console.log('rePorteAdmin');
+        console.log('getPorteAdmin');
     }
 }
 
