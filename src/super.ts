@@ -1,20 +1,15 @@
 
-//Aplicando herança extendendo a classe
+// Aplicando herança extendendo a classe
 // Super para usar os atributos e metodos da classe Pai
 // Ultilizando override que sobre escreve os metodos da classe Pai
-class UserPai{
-    permissaoSuperAdmin(){
-        console.log("PERMISSÃO SUPER ADMIN");
-    }
-}
 
-class userFilho extends UserPai{
-    overidePermissaoSuperAdmin(){
-        super.permissaoSuperAdmin();
-        console.log('Tambem possuo permissão de super admin ');
-        
-    }
-}
+//Atualmente eu consigo então permitir usar a permissão dos atributos da classe pai para então sobreescrever a classe filha que eu preciso 
 
-const usuario = new userFilho();
-usuario.overidePermissaoSuperAdmin();
+// class User{
+//     constructor(
+//        public nome  
+//         age 
+//         email
+//         password
+//     ){}
+// }

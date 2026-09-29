@@ -12,8 +12,14 @@ class Person {
 }
 
 class manager extends Person {
-    //posso criar um metodos expecifico para essa classe 
+  
 }
+
+class Empregados extends Person{
+  //posso criar um metodos expecifico para essa classe // overraide por debaixo dos panos 
+     gerarRelatorioFuncionario(): void {
+        console.log(`${this.name}: Esse funcionario a partir de agora vai receber mais - pesquisando no banco de dados .....`);
+    }}
 
 class Admin extends Person {
     //metodo para gerar relatorio do funcionario
@@ -32,3 +38,6 @@ manager1.gerarRelatorioFuncionario()
 const admin1 = new Admin("Alice", 30);
 admin1.gerarRelatorioFuncionario()
 admin1.rePorteAdmin()
+
+const empregado1 = new Empregados("Empregado com salario novo - Jessica" , 26)
+empregado1.gerarRelatorioFuncionario()
