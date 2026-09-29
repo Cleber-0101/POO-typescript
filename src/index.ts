@@ -1,1 +1,1 @@
-import "./polimorfismo";
+import "./static";
