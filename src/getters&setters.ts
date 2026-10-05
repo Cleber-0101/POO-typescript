@@ -22,11 +22,6 @@ class User {
 }
 
 
-
-
-
-
-
 const user1 = new User(
  1,
  "cleber",
@@ -35,7 +30,9 @@ const user1 = new User(
  new Date(),
  new Date()
 )
+
 console.log(user1.buscaNome);
+
 user1.mudaNome = "jessica",
 user1.mudaNome = "jessica Update"
 

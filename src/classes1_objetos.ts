@@ -15,12 +15,12 @@ class User2 {
     }
 
     //metodo para validar idade 
-    validateAge(age: number){
-        // OU uma das opções abaixo precisa ser verdadeira para lançar o erro
-        if(age <= 0 || age > 150) {
-            throw new Error('Idade inválida');
-        }
-    }
+    // validateAge(age: number){
+    //     // OU uma das opções abaixo precisa ser verdadeira para lançar o erro
+    //     if(age <= 0 || age > 150) {
+    //         throw new Error('Idade inválida');
+    //     }
+    // }
 }
 
 const pessoa1 = new User2("Cleber", 26);

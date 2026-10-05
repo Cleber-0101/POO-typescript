@@ -11,8 +11,11 @@ class Person {
     }
 }
 
-class manager extends Person {
-    //posso criar um metodos expecifico para essa classe 
+class Gerente extends Person {
+    // posso criar um metodo especifico para essa classe
+    acessoEspecial(): void {
+        console.log('Gerente pode entrar a hora que ele quiser');
+    }
 }
 
 class Admin extends Person {
@@ -26,9 +29,10 @@ class Admin extends Person {
     }
 }
 
-const manager1 = new manager("Cleber", 26);
-manager1.gerarRelatorioFuncionario()
+const gerente1 = new Gerente("Cleber", 26);
+gerente1.gerarRelatorioFuncionario();
+gerente1.acessoEspecial();
 
 const admin1 = new Admin("Alice", 30);
-admin1.gerarRelatorioFuncionario()
-admin1.rePorteAdmin()
+admin1.gerarRelatorioFuncionario();
+admin1.rePorteAdmin();
