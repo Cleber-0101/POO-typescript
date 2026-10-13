@@ -47,3 +47,6 @@ const taxa = Pagamento.calcularTaxa(1000);
 console.log(taxa);
 
 
+osvaldososvaldo313@gmail.com
+
+email teste 
