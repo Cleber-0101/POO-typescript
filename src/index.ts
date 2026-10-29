@@ -1,1 +1,1 @@
-import "./atributos-abstratos";
+import "./interface";
