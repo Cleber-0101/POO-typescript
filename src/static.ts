@@ -32,9 +32,6 @@ console.log(
     Validador.validarEmail("cleber@email.com")
 );
 
-
-
-
 //outro exemplo
 class Pagamento {
     static calcularTaxa(valor: number): number {
